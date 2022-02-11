@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.appbar {
+  display: flex;
+  background-color: rgba(218, 115, 11, 255);
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.apptitle {
+  color: white;
+  font-family: "Acme", sans-serif;
+  display: flex;
+  font-size: medium;
+}
+
+.BodyContainer {
+  display: flex;
+  min-height: fit-content;
+  max-width: 700px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.WellTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.WellsubTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(218, 115, 11, 255);
+}
+.profilesum {
+  margin: 20px;
+  max-width: 700px;
+  border-bottom: 2px;
+}
+
+.ListofInfo {
+  margin-top: 50px;
+}
+.ListofInfo li {
+  list-style: none;
+  font-weight: 500;
+}
+
+.ListofInfo ul {
+  margin: 10px;
+  margin-left: 0;
+  padding: 0;
+}
+.card-title {
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+}
+.card-text {
+  color: rgba(218, 115, 11, 255);
+  font-weight: bold;
+}
